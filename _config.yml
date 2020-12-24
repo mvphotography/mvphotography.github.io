@@ -1,2 +1,1 @@
 theme: jekyll-theme-minimal
-git config http.postBuffer 524288000 #Set to 500MB
