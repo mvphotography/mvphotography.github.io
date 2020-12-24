@@ -260,7 +260,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     color: #ffffff;
     display: -webkit-box;
@@ -281,8 +281,8 @@ a:hover, a:active, a:focus {
 }
 
 .main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
-  height: 75vh;
+  background: url('../images/about-bg-large.jpg') no-repeat;
+  height: 100vh;
 }
 
 .main-single-post {
