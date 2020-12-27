@@ -507,7 +507,6 @@ footer .footer-copyright {
 }
 
 
-
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
@@ -522,7 +521,6 @@ footer .footer-copyright {
   }
 
 }
-
 
 @media (max-width: 768px) {
 
@@ -548,7 +546,6 @@ footer .footer-copyright {
 
 }
 
-
 @media (max-width: 650px) {
 
   h1 {
@@ -562,12 +559,6 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 
-}
-
-@media (max-width: 800px){
-  body {
-    transform: scale(0.6);
-  }
 }
 
 @media (max-width: 600px) {
