@@ -514,12 +514,6 @@ footer .footer-copyright {
 
 @media (max-width: 980px) {
 
-  .main-about,
-  .main-single-post,  
-  .main-gallery,
-  .main-contact {
-    height: 35vh;
-  }
   #contact img{
     max-width: 10vw;
   }
