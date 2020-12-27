@@ -515,11 +515,11 @@ footer .footer-copyright {
 @media (max-width: 980px) {
 
   #contact img{
-    max-width: 10vw;
+    max-width: 30vw;
   }
   .media {
     width: 80vw;
-    max-height: 30vh;
+    max-height: 25vh;
   }
 }
 
