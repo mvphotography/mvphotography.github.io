@@ -358,8 +358,8 @@ a:hover, a:active, a:focus {
 }
 
 .media {
-  width: 1000px;
-  max-height: 700px;
+  width: 55vw;
+  max-height: 70vh;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -460,7 +460,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact img{
-  max-width: 400px;
+  max-width: 20vw;
 }
 
 
