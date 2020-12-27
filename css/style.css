@@ -276,25 +276,21 @@ a:hover, a:active, a:focus {
 }
 
 .main-home {
-  background: url('../images/home-bg.jpg') no-repeat;
+  background: url('../images/home-bg.webp') no-repeat;
   height: 100vh;
 }
 
 .main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('../images/about-bg.webp') no-repeat;
   height: 100vh;
 }
 
-.main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
-}
-
 .main-gallery {
-  background: url('../images/gallery-bg.jpg') no-repeat;
+  background: url('../images/gallery-bg.webp') no-repeat;
 }
 
 .main-contact {
-  background: url('../images/contact-bg.jpg') no-repeat;
+  background: url('../images/contact-bg.webp') no-repeat;
 }
 
 #home h4 {
@@ -402,18 +398,6 @@ a:hover, a:active, a:focus {
   transition: all 0.9s ease;
 }
 
-@media (max-width: 800px){
-  body {
-    transform: scale(0.6);
-  }
-}
-
-@media (max-width: 600px) {
-    .wrapper {
-    display: block;
-  }
-}
-
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
@@ -424,39 +408,6 @@ a:hover, a:active, a:focus {
 
 #contact .col-md-12 {
   padding-left: 0;
-}
-
-#contact form {
-  padding-top: 32px;
-}
-
-#contact .form-control {
-  border: 2px solid #f0f0f0;
-  box-shadow: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #555;
-}
-
-#contact input {
-  height: 50px;
-}
-
-#contact input[type="submit"] {
-  background: #c53f3f;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact input[type="submit"]:hover {
-  background: #333;
 }
 
 #contact img{
@@ -515,8 +466,6 @@ footer .footer-copyright {
     background: #c53f3f;
     color: #ffffff;
 }
-
-
 
 /*---------------------------------------
    Social icon             
@@ -615,3 +564,14 @@ footer .footer-copyright {
 
 }
 
+@media (max-width: 800px){
+  body {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+    display: block;
+  }
+}
