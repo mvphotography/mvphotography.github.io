@@ -483,6 +483,14 @@ footer .footer-copyright {
     max-width: 30vw;
   }
 
+  .media {
+    margin: 1vw 2vh;
+  }
+
+  .media img {
+    max-width:80vw;
+  }
+
 }
 
 @media (max-width: 768px) {
