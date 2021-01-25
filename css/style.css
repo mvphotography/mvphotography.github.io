@@ -484,11 +484,11 @@ footer .footer-copyright {
   }
 
   .media {
-    margin: 2vw 10vh;
+    margin: 1vw 2vh;
   }
 
   .media img {
-    max-width:90vw;
+    max-width:80vw;
     max-height: 30vh;
   }
 
