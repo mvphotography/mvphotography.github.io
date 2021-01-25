@@ -480,9 +480,15 @@ footer .footer-copyright {
 
 @media (max-width: 980px) {
 
-  #contact img{
+  #contact img {
     max-width: 30vw;
   }
+
+  .media img {
+    max-width:80vw;
+    max-height: 30vh;
+  }
+
 
 @media (max-width: 768px) {
 
@@ -521,10 +527,4 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 
-}
-
-@media (max-width: 600px) {
-    .wrapper {
-    display: block;
-  }
 }
