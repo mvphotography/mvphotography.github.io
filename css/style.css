@@ -514,6 +514,7 @@ footer .footer-copyright {
 
   .media img {
     max-width:80vw;
+    max-height: 100vh;
   }
 
   .collection {
