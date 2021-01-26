@@ -27,6 +27,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  color: #555;
 }
 
 h2,h3 {
@@ -291,7 +292,7 @@ a:hover, a:active, a:focus {
 }
 
 .main-MagdalenIslands {
-  background: url('../images/MagdalenIslands.jpg') no-repeat;
+  background: url('../images/MagdalenIslands-23.jpg') no-repeat;
   height: 100vh;
 }
 
@@ -360,15 +361,33 @@ a:hover, a:active, a:focus {
 
 .media img {
   transition: 1s;
+  max-width:40vw;
+  max-height: 30vw;
+  padding: 2vh;
+}
+
+.media img:hover {
+  transform: scale(1.05);
+}
+
+.collection {
+  margin: 5vw 10vh;
+  position: relative;
+  text-align: center;
+}
+
+.collection img {
+  transition: 1s;
   max-width:75vw;
   max-height: 60vh;
   padding: 2vw;
   padding-bottom: 5vh;
 }
 
-.media img:hover {
+.collection img:hover {
   transform: scale(1.05);
 }
+
 
 /*---------------------------------------
    Contact section              
@@ -494,6 +513,14 @@ footer .footer-copyright {
   }
 
   .media img {
+    max-width:80vw;
+  }
+
+  .collection {
+    margin: 1vw 2vh;
+  }
+
+  .collection img {
     max-width:80vw;
   }
 
