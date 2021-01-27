@@ -97,6 +97,7 @@ a:hover, a:active, a:focus {
 
 #about, 
 #gallery,
+#books,
 #contact,
 #blog, 
 #blog-single-post {
@@ -388,6 +389,13 @@ a:hover, a:active, a:focus {
   transform: scale(1.05);
 }
 
+/*---------------------------------------
+   Books section              
+-----------------------------------------*/
+
+iframe {
+
+}
 
 /*---------------------------------------
    Contact section              
