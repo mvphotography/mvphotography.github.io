@@ -393,8 +393,8 @@ a:hover, a:active, a:focus {
    Books section              
 -----------------------------------------*/
 
-iframe {
-
+.books {
+   height:80vh;
 }
 
 /*---------------------------------------
@@ -531,6 +531,11 @@ footer .footer-copyright {
 
   .collection img {
     max-width:80vw;
+  }
+
+  .books {
+     height: auto;
+     width: 80vw;
   }
 
 }
