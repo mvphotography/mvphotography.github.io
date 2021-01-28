@@ -534,8 +534,7 @@ footer .footer-copyright {
   }
 
   .books {
-     height: auto;
-     width: 80vw;
+     height: 60vh;
   }
 
 }
