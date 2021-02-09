@@ -327,6 +327,11 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
+.main-books {
+  background: url('../images/MagdalenIslands-3.jpg') no-repeat;
+  height: 100vh;
+}
+
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
 }
