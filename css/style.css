@@ -297,6 +297,36 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
+.main-Mountains {
+  background: url('../images/Mountains-8.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-Water {
+  background: url('../images/Water-12.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-Fauna {
+  background: url('../images/Fauna-10.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-Flora {
+  background: url('../images/Flora-15.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-Portraits {
+  background: url('../images/portraits-5.jpg') no-repeat;
+  height: 100vh;
+}
+
+.main-Other {
+  background: url('../images/Other-4.jpg') no-repeat;
+  height: 100vh;
+}
+
 .main-contact {
   background: url('../images/contact-bg.jpg') no-repeat;
 }
@@ -382,7 +412,7 @@ a:hover, a:active, a:focus {
   max-width:75vw;
   max-height: 60vh;
   padding: 2vw;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
 }
 
 .collection img:hover {
